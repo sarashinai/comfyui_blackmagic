@@ -36,7 +36,7 @@ line and any line that starts with a `#` symbol.
 
 ### TextFormatter
 The way that ComfyUI offers [file name formatting](https://comfyuidoc.com/Interface/SaveFileFormatting.html) is 
-very useful for avoid file name collisions and organization but not every node implements it. When I used a node
+very useful for avoiding file name collisions and organization but not every node implements it. When I used a node
 that didn't, the presence of the `%` sign in the actual file name caused problems for FFMPEG and files weren't
 outputted correctly, losing generation time. This node takes the template text you enter and runs it through
 the ComfyUI formatting system in real-time so you can see the result before running the workflow and then you 
